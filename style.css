@@ -4,16 +4,23 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
+/* FULL SCREEN BACKGROUND FIX */
 body {
-    height: 100vh;
     font-family: Arial;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background: url("git.png") no-repeat center center;
-    background-size: cover; /* 👈 fills entire screen */
+    background-image: url("git.png");
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;   /* 👈 FORCE FULL FILL */
+    background-position: top left;
 }
 
 /* Container */
