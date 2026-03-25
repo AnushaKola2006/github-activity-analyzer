@@ -8,9 +8,7 @@ body {
 
     /* Background Image */
     background-image: url('git.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
 }
 
 /* Center Box */
