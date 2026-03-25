@@ -7,8 +7,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: url('./git.png') no-repeat center center;
-    background-size: contain !important;
+    background: url('git.png') no-repeat center center;
+    background-size: contain;
     background-color: black;
 }
 
