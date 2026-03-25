@@ -4,7 +4,6 @@ body {
     margin: 0;
 
     display: flex;
-    justify-content: center;
     align-items: center;
 
     /* Background Image */
@@ -21,7 +20,8 @@ body {
     padding: 30px;
     border-radius: 10px;
 
-    margin-left: 250px; /* 👈 adjust if needed (200–300px) */
+    margin-left: 55%;   /* 👈 MAIN FIX (push to right side properly) */
+    transform: translateX(-50%);
 }
 
 /* Input & Button */
