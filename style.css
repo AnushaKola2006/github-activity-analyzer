@@ -4,56 +4,37 @@
     box-sizing: border-box;
 }
 
-.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("git.png") no-repeat center center/cover;
-    opacity: 0.25;          /* controls transparency */
-    z-index: -1;
-}
-
-/* Dark overlay (for readability) */
-.background::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* 👈 adjust darkness here */
-}
-
-/* Center content */
+/* FULL CLEAR BACKGROUND IMAGE */
 body {
     height: 100vh;
+    font-family: Arial;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial;
+
+    background: url("git.png") no-repeat center center;
+    background-size: contain; /* shows full image */
+    background-color: black;
 }
 
 /* Container */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 /* Heading */
-h1 {
-    margin-bottom: 25px;
-    font-size: 32px;
+h2 {
     color: white;
+    margin-bottom: 20px;
 }
 
-/* Box */
+/* Box (NO white transparency now) */
 .box {
-    background: rgba(30, 30, 47, 0.95);
+    background: #1e1e2f; /* solid dark */
     padding: 20px;
     border-radius: 15px;
     width: 300px;
-    text-align: center;
 }
 
 /* Input & Button */
