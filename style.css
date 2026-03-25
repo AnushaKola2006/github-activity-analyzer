@@ -1,25 +1,26 @@
 body {
     font-family: Arial;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
+
+    display: flex;
+    justify-content: flex-end;  /* move content to right */
+    align-items: center;
 
     /* Background Image */
     background-image: url('git.png');
     background-size: cover;
-    background-position: 20% 10%;
+    background-position: left top; /* 👈 shows top + left part */
     background-repeat: no-repeat;
-    
 }
 
-/* Center Box */
+/* Content Box */
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* slight white overlay */
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 30px;
     border-radius: 10px;
+    margin-right: 100px; /* 👈 pushes from right edge */
 }
 
 /* Input & Button */
