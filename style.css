@@ -8,43 +8,67 @@ html, body {
     height: 100%;
 }
 
-/* FULL SCREEN BACKGROUND FIX */
+/* Background full screen */
 body {
-    font-family: Times New Roman;
-
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-image: url("git.png");
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;   /* 👈 FORCE FULL FILL */
-    background-position: top left;
+    background: url("git.png") no-repeat center center;
+    background-size: 100% 100%;
 }
 
 /* Container */
 .container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
     text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
-/* Heading */
+/* Title */
 h2 {
+    font-family: "Times New Roman", Times, serif;
     color: black;
     margin-bottom: 20px;
 }
 
-/* Box */
-.box {
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    width: 300px;
-}
-
-/* Input & Button */
-input, button {
+/* Input */
+input {
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer;
+}
+
+/* Hover */
+button:hover {
+    background-color: #0066cc;
+}
+
+/* Result text */
+#result {
+    margin-top: 15px;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
 }
