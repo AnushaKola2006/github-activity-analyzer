@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* FULL CLEAR BACKGROUND IMAGE */
 body {
     height: 100vh;
     font-family: Arial;
@@ -14,8 +13,7 @@ body {
     align-items: center;
 
     background: url("git.png") no-repeat center center;
-    background-size: contain; /* shows full image */
-    background-color: black;
+    background-size: cover; /* 👈 fills entire screen */
 }
 
 /* Container */
@@ -29,9 +27,9 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Box (NO white transparency now) */
+/* Box */
 .box {
-    background: #1e1e2f; /* solid dark */
+    background: #1e1e2f;
     padding: 20px;
     border-radius: 15px;
     width: 300px;
