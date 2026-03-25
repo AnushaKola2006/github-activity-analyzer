@@ -2,20 +2,25 @@
 <html>
 <head>
     <title>GitHub Activity Analyzer</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Background layer -->
+<div class="background"></div>
+
 <div class="container">
-    <h2>GitHub Activity Analyzer</h2>
+    <h1>GitHub Activity Analyzer</h1>
 
-    <input type="text" id="username" placeholder="Enter GitHub Username">
-    <button onclick="getData()">Search</button>
+    <div class="box">
+        <input type="text" id="username" placeholder="Enter GitHub Username">
+        <button onclick="getData()">Search</button>
 
-    <div id="result"></div>
+        <div id="result"></div>
+    </div>
 </div>
 
-<script src="./script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
