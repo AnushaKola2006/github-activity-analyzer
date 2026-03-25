@@ -10,7 +10,7 @@ html, body {
 
 /* FULL SCREEN BACKGROUND FIX */
 body {
-    font-family: Arial;
+    font-family: Times New Roman;
 
     display: flex;
     justify-content: center;
@@ -30,13 +30,13 @@ body {
 
 /* Heading */
 h2 {
-    color: white;
+    color: black;
     margin-bottom: 20px;
 }
 
 /* Box */
 .box {
-    background: #1e1e2f;
+    background: white;
     padding: 20px;
     border-radius: 15px;
     width: 300px;
