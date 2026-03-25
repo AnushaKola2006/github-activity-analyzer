@@ -9,7 +9,7 @@ body {
     /* Background Image */
     background-image: url('git.png');
     background-size: cover;
-    background-position: top left;
+    background-position: left top;
     background-repeat: no-repeat;
     
 }
