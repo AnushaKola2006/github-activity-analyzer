@@ -1,29 +1,24 @@
 body {
-    font-family: Arial;
-    height: 100vh;
     margin: 0;
+    height: 100vh;
+    font-family: Arial;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* Show FULL image */
-    background-image: url('git.png');
-    background-size: contain;     /* 👈 FULL image visible */
-    background-position: center;  /* 👈 center image */
-    background-repeat: no-repeat;
-    background-color: black;      /* 👈 fills empty space */
+    background: url('./git.png') no-repeat center center;
+    background-size: contain !important;
+    background-color: black;
 }
 
-/* Center Box */
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.85);
     padding: 30px;
     border-radius: 10px;
 }
 
-/* Input & Button */
 input, button {
     padding: 10px;
     margin: 5px;
