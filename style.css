@@ -8,6 +8,9 @@ body {
 
     /* Background Image */
     background-image: url('git.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
     
 }
 
